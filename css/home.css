@@ -1,0 +1,52 @@
+body{
+    background-image:url(./img/logo_ROCM_RGB_WEB.jpg.crdownload);
+}
+aside{
+    display: grid;
+    grid-template-areas: 'aside' ;
+    grid-area: aside;
+}
+ul{
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    }
+    img{
+        height: 105px;
+        width: 80px;
+    }
+    li{
+        float: left;
+        text-align: center;
+        padding: 25px;
+        margin: 10px;
+    }
+    li a {
+        color:black;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    li a:hover{
+        color: black;
+        background-color: blanchedalmond;
+    }
+    .imgbody{
+        float: right;
+        width: 30%;
+        height: 30%;
+    }
+    article{
+        box-shadow: 0 1.5px 8px 0 rgba(0,0,0,0.2);
+        height: 60%;
+        width: 60%;
+        padding: 20px;
+        float: left;
+    }

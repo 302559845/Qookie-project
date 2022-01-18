@@ -1,0 +1,28 @@
+ul{
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 6.5rem;
+}
+li{
+    float: left;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+li a {
+    color:black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 30px;
+}
+li a:hover{
+    color: black;
+    background-color: blanchedalmond;
+}
