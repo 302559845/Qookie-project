@@ -26,3 +26,20 @@ li a:hover{
     color: black;
     background-color: blanchedalmond;
 }
+div{
+    align-items: center;
+    text-align: center;
+    margin-left: 39rem;
+    margin-top: 110px;
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 20rem;
+    height: 420px;
+}
+h1{
+
+}
+p{
+    font-size: 2rem;
+}
